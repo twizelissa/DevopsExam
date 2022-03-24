@@ -1,0 +1,11 @@
+GET http://localhost:8001/api/meters
+Accept: application/json
+
+###
+POST http://localhost:8001/api/tokens/buy
+Content-Type: application/json
+
+{
+  "meter_number": "123454",
+  "amount": 1000
+}
