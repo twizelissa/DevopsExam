@@ -14,3 +14,7 @@ run application by ...
    `npm install`
 2. Starting application
    `npm run start`
+
+# docker images
+
+

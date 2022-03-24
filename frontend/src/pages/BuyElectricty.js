@@ -26,7 +26,7 @@ export default function BuyElectricity() {
 
     return (
         <div>
-            <h1 className="text-3xl font-medium" id="_buy_electricity_page">BUY ELECTRICY</h1>
+            <h1 className="text-3xl font-medium" id="_buy_electricity_page">BUY ELECTRICITY</h1>
             {error !== "" && <div className="py-10 text-red-500 w-[400px]" id="ErrorMessage">{error}</div>}
             {isSuccess &&
                 <div className="py-10 text-lg text-green-500 w-[400px]" id="SuccessMessage">Sucessfully Token generated :{token} ..</div>}
